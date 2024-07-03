@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Title of the page -->
+    <title>PLP Scholarship Tracker Application</title>
+    
+    <!-- Meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Welcome to the Power Learn Project Scholarship Application</h1>
+    </header>
+    
+    <!-- Main content -->
+    <main>
+        <!-- Heading -->
+        <h2>Apply for Scholarship Program</h2>
+        
+        <!-- Paragraph -->
+        <p>Please fill in the form below to create your profile and start tracking your application.</p>
+        
+        <!-- Basic registration form -->
+        <form action="/submit-application" method="post">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            
+            <input type="submit" value="Register">
+        </form>
+        
+        <!-- Table displaying user information -->
+        <h2>Common User Information</h2>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+            </tr>
+            <tr>
+                <td>Vuyelwa Mavuma</td>
+                <td>mavumavuyelwa@gmail.com</td>
+                <td>(065) 993-7380</td>
+            </tr>
+        </table>
+        
+        <!-- Image -->
+        <h2>Application Tracking Overview</h2>
+        <img src="images/plp.jpg" alt="Expense Tracker Overview" width="300" height="200">
+        
+        <!-- External link -->
+        <p>For more information, visit <a href="https://google.com" target="_blank">Google</a>.</p>
+    </main>
+</body>
+</html>
