@@ -1,43 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Title of the page -->
-    <title>PLP Scholarship Tracker Application</title>
-    
+    <title>Expense Tracker Application</title>
+
     <!-- Meta tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    
+
+    <!-- Link to an external stylesheet (optional, not required) -->
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <!-- Header -->
     <header>
-        <h1>Welcome to the Power Learn Project Scholarship Application</h1>
+        <h1>Welcome to the Expense Tracker Application</h1>
     </header>
-    
+
     <!-- Main content -->
     <main>
         <!-- Heading -->
-        <h2>Apply for Scholarship Program</h2>
-        
+        <h2>Register for an Account</h2>
+
         <!-- Paragraph -->
-        <p>Please fill in the form below to create your profile and start tracking your application.</p>
-        
+        <p>Managing your expenses effectively is crucial for maintaining financial stability and achieving your
+            financial goals. With the Expense Tracker Application, you can easily track your daily, weekly, and monthly
+            expenses, categorize them, and monitor your spending patterns over time. Our user-friendly interface allows
+            you to quickly input your expenses, set budgets, and receive insightful reports that help you understand
+            where your money is going. Whether you're saving for a big purchase, planning a vacation, or just trying to
+            keep your finances in order, our application provides all the tools you need to stay on top of your budget.
+            Join our community of savvy savers today and take the first step towards a healthier financial future.</p>
+
         <!-- Basic registration form -->
-        <form action="/submit-application" method="post">
+        <form action="/submit-registration" method="post">
             <label for="username">Username:</label><br>
             <input type="text" id="username" name="username" required><br><br>
-            
+
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email" required><br><br>
-            
+
             <label for="password">Password:</label><br>
             <input type="password" id="password" name="password" required><br><br>
-            
+
             <input type="submit" value="Register">
         </form>
-        
+
         <!-- Table displaying user information -->
         <h2>Common User Information</h2>
         <table border="1">
@@ -51,14 +60,20 @@
                 <td>mavumavuyelwa@gmail.com</td>
                 <td>(065) 993-7380</td>
             </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>jane.smith@example.com</td>
+                <td>(987) 654-3210</td>
+            </tr>
         </table>
-        
+
         <!-- Image -->
-        <h2>Application Tracking Overview</h2>
-        <img src="images/plp.jpg" alt="Expense Tracker Overview" width="300" height="200">
-        
+        <h2>Expense Tracking Overview</h2>
+        <img src="images/tracker.jpg" alt="Expense Tracker Overview" width="300" height="200">
+
         <!-- External link -->
         <p>For more information, visit <a href="https://google.com" target="_blank">Google</a>.</p>
     </main>
 </body>
+
 </html>
